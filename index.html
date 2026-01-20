@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+    <div class="logo">
+        <span class="pos-p">P</span><span class="pos-o">O</span><span class="pos-s">S</span>
+    </div>
+    <div class="search-container">
+        <input name="search" type="text" placeholder="Search product or any order..." class="search-input">
+    </div>
+    <div class="header-right">
+        <div class="date-time">
+            <img src="img/icons/calendar-icon.png" height="18" width="16" alt="calendar icon">
+            <span class="date-text">October 18th 2002, 10:00AM</span>
+        </div>
+        <button class="add-table-btn">
+            <img src="img/icons/add-icon.png" height="18" width="18" alt="add icon">
+            ADD TABLE
+        </button>
+    </div>
+</header>
+<main class="main-content">
+    <div class="products-container">
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="img/products/chicken-wings.jpg" alt="Chicken Wings" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">CHICKEN WINGS</h3>
+                    <div class="product-meta">
+                        <span class="category-label">CATEGORY:</span>
+                        <div class="meta-icons">
+                            <span class="letter-icon orange-bg">N</span>
+                            <span class="chili-icons">
+                                <img src="img/icons/chill-icon.png" alt="chili" class="chili-icon">
+                                <img src="img/icons/chill-icon.png" alt="chili" class="chili-icon">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="categories-footer">
+        <div class="footer-buttons">
+            <button class="footer-btn active">STARTER</button>
+            <button class="footer-btn">MAIN COURSE</button>
+            <button class="footer-btn">DRINKS</button>
+            <button class="footer-btn">DESSERTS</button>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
